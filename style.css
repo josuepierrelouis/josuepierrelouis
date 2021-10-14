@@ -1,0 +1,1100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source code pro', Calibri, serif;
+    box-sizing: border-box;
+}
+
+
+/* Debut de premiere partie la barre navigation  */
+
+header {
+    border-bottom: 2px solid #f2f3f3;
+}
+
+#premiere {
+    margin-right: 15px;
+}
+
+#barreDeMenuResponsive {
+    content: "";
+    display: block;
+    clear: both;
+    display: none;
+}
+
+header nav {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul .semblable:hover {
+    background-color: #ebeced;
+}
+
+header nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+    list-style-type: none;
+}
+
+nav ul li a {
+    padding: 21px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.M_menu {
+    display: none;
+    border: 1px solid #ededf0;
+    box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.253);
+    margin-top: 8px;
+    width: 172%;
+    border-radius: 10px;
+    height: 100px;
+}
+
+nav li:hover .M_menu,
+nav li:active .M_menu {
+    display: inline-block;
+    position: absolute;
+    /* top: 110%; */
+    top: 95%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.M_menu li a {
+    font-size: 15px;
+    width: 100%;
+}
+
+.M_menu li:hover a {
+    background-color: #ebeced;
+    width: 80%;
+    height: 5px;
+    border-radius: 8px;
+}
+
+#meme {
+    margin-top: -22px;
+    padding: 5px 5px;
+    width: 90%;
+    position: relative;
+    height: 20px;
+}
+
+.memee {
+    width: 160px;
+    position: relative;
+    padding: 5px 5px;
+}
+
+
+/* Fin de premiere partie la barre navigation  */
+
+
+/*  Debut de le deuxieme partie le logo */
+
+#deuxieme_logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding: 20px 0px 30px 0px;
+    margin-left: 20px;
+}
+
+#bordureCenter {
+    border-left: 1.5px solid #ededf0;
+    height: 120px;
+    margin-right: 15px;
+    margin-top: -1px;
+}
+
+#imageTri {
+    margin-left: 140px;
+    margin-top: -5px;
+}
+
+#bordureLeft h3 {
+    font-size: 1.2rem;
+    width: 90%;
+}
+
+#bordureLeft p {
+    font-size: 14px;
+}
+
+
+/*  Fin de le deuxieme partie le logo */
+
+
+/* Debut de la troisieme partie les offres */
+
+.troisieme {
+    padding: 20px 160px 29px 185px;
+    background-color: #f5f5f6;
+    margin-top: -17px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.troisieme h4 {
+    font-size: 17px;
+    margin-bottom: -2px;
+}
+
+#responsiveSearch,
+#mobile,
+#rech,
+.titre,
+#barEnTete {
+    display: none;
+}
+
+.troisieme ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.troisieme ul {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+}
+
+.troisieme ul li {
+    border: 1px solid #e7e6e6;
+    padding: 8px 5px;
+    border-radius: 10px;
+    background: #fff;
+    margin-right: 5px;
+    list-style-type: none;
+}
+
+.troisieme ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.troisieme ul li a:hover {
+    text-decoration: underline;
+}
+
+#option {
+    border-bottom: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 14%;
+    text-align: center;
+}
+
+#option a {
+    color: #1d85b4;
+    font-weight: bold;
+}
+
+#fusion a {
+    font-size: 14px;
+}
+
+#fusion {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background: #e5f2f6;
+    padding: 2px 12px;
+}
+
+#fusion1 {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background: #e5f2f6;
+    padding: 3px 20px;
+}
+
+#fusion1 a {
+    font-size: 14px;
+}
+
+#fusion a:hover {
+    color: #22a9d0;
+    text-decoration: underline;
+}
+
+#fusion1 a:hover {
+    color: #22a9d0;
+    text-decoration: underline;
+}
+
+#TroisiemeMidlle {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    background: #fff;
+    width: 96%;
+    margin-bottom: -10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#TroisiemeMidlle #input1 {
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: 1px solid #e2e4e5;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+    width: 28%;
+}
+
+#arriver {
+    border: none;
+    text-align: center;
+    border: none;
+    background: none;
+    font-size: 12px;
+    color: #6c6a63;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+#ref {
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: 1px solid #e2e4e5;
+    width: 9%;
+    height: 41px;
+    background: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+#arriver-avancer {
+    margin-left: 30px;
+    background: none;
+}
+
+#depart {
+    border: none;
+    text-align: center;
+    margin-right: 20px;
+    background: none;
+    font-size: 12px;
+    color: #6c6a63;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+#ref2 {
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: 1px solid #f1f1f2;
+    width: 8%;
+    height: 50px;
+    background: none;
+}
+
+.friends {
+    text-align: center;
+    border: none;
+    background: none;
+}
+
+.friends a {
+    text-decoration: none;
+    font-size: 11px;
+    color: #6c6a63;
+}
+
+#chambre-personne {
+    margin-left: 35px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+#search {
+    margin-left: 20px;
+    border: 1px solid #007fad;
+    border-radius: 40px;
+    padding: 10px 40px;
+    background: #007fad;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#TroisiemeMidlle #search:hover {
+    background: #005f81;
+}
+
+#LesImages img {
+    margin-right: 18px;
+}
+
+#LesImages a {
+    margin-top: -12px;
+    text-decoration: none;
+    cursor: text;
+    color: #a4aaae;
+    font-size: 16px;
+}
+
+#LesImages {
+    padding: 0;
+    margin: 0;
+}
+
+#lesImages {
+    display: none;
+}
+
+#LesImages {
+    margin-left: left;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+
+/* Fin de la troisieme partie les offres */
+
+
+/* Debut de la quatrieme partie */
+
+#sectQuatrieme {
+    margin-left: 137px;
+}
+
+#sectQuatrieme p {
+    width: 81%;
+    font-size: 14px;
+}
+
+#sectQuatre {
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+#sectQuatrieme img {
+    margin-top: 2px;
+}
+
+
+/* Debut de la quatrieme partie */
+
+
+/* Debut de la Cinquieme partie les images */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: 20px 137px;
+    margin-bottom: 250px;
+}
+
+#CinqParts {
+    display: flex;
+}
+
+.cartre:hover {
+    text-decoration: underline;
+}
+
+.cartre img {
+    border-radius: 10px
+}
+
+#CinqParts .cartre {
+    margin-right: 15px;
+}
+
+.informationUne p {
+    font-size: 15px;
+    color: #a5a5a5;
+}
+
+.informationUne h3 {
+    font-size: 17px;
+}
+
+.remarqueUne p {
+    width: 100%;
+    font-size: 15px;
+}
+
+.informations p {
+    font-size: 15px;
+    color: #a5a5a5;
+}
+
+.informations h3 {
+    font-size: 17px;
+}
+
+.remarque p {
+    width: 110%;
+    font-size: 15px;
+}
+
+.informationTrois h3 {
+    font-size: 17px;
+    width: 95%;
+}
+
+.informationTrois p {
+    font-size: 15px;
+    color: #a5a5a5;
+}
+
+.remarqueTrois p {
+    width: 93%;
+    font-size: 15px;
+}
+
+.remarqueQuatre p {
+    width: 95%;
+    font-size: 15px;
+}
+
+
+/* Fin de la Cinquieme partie les images */
+
+
+/* Debut Du footer */
+
+#Alligner {
+    display: none;
+}
+
+footer {
+    background: #0a1121;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+.Derniere {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: 0px 200px;
+    width: 100%;
+}
+
+.Derniere p,
+a {
+    color: #fff;
+}
+
+.newsUne {
+    display: flex;
+    margin-top: 20px;
+}
+
+.newsDeux {
+    display: flex;
+}
+
+.newsUneTexte {
+    width: 35%;
+}
+
+.newsUneInput {
+    border: none;
+    border: 1px solid #fff;
+    padding: 12px 150px 12px 8px;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.newsUneBouton {
+    border: none;
+    border: 1px solid #0a1121;
+    padding: 14px 14px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #697379;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.newsUneBouton:hover {
+    background: #0a1121;
+}
+
+#blockInput {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#bordureFooter {
+    border: 1px solid #848c92;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.newsDeux {
+    margin-top: 15px;
+}
+
+.newsDeux div {
+    margin-right: 260px;
+}
+
+#country {
+    border: none;
+    outline: none;
+    padding-right: 160px;
+    color: #fff;
+    background: #0a1121;
+}
+
+#country:hover {
+    outline: none;
+}
+
+.newsMidlleDeux {
+    border: 1px solid #fff;
+    padding: 12px 10px;
+    width: 20%;
+    height: 20px;
+    background: #0a1121;
+    border-radius: 8px;
+    margin-top: 18px;
+}
+
+.newsTrois {
+    display: flex;
+}
+
+.newsTrois div {
+    margin-right: 20px;
+    border: 1px solid #fff;
+    padding: 8px 8px;
+    border-radius: 80px;
+    background: #fff;
+}
+
+.newsQuatre {
+    display: flex;
+    margin-top: 40px;
+}
+
+.newsQuatre a {
+    text-decoration: none;
+}
+
+.newsQuatre a:hover {
+    text-decoration: underline;
+}
+
+.newsQuatre div {
+    margin-right: 95px;
+}
+
+#spaceQuatreTrois {
+    margin-left: -140px;
+}
+
+#elementLast {
+    width: 70%;
+}
+
+#newsCinq {
+    margin-left: 400px;
+    margin-top: 70px;
+}
+
+#newsSix {
+    margin-left: 335px;
+    font-size: 13px;
+}
+
+#newsSix p {
+    color: #848c92;
+}
+
+
+/* Debut Du footer */
+
+@media screen and (max-width: 500px) {
+    #imageTri {
+        margin-left: 100px;
+        margin-top: -5px;
+    }
+    #deuxieme_logo {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        height: 50px;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        padding: 20px 0px 30px 0px;
+        margin-left: 20px;
+    }
+    #bordureCenter {
+        border-left: 1.5px solid #ededf0;
+        height: 120px;
+        margin-right: 15px;
+        margin-top: -1px;
+    }
+    /* Debut de la troisieme partie les offres */
+    .troisieme {
+        padding: 20px 100px 29px 165px;
+        background-color: #f5f5f6;
+        margin-top: -17px;
+        position: relative;
+        box-sizing: border-box;
+    }
+    /* Debut de la quatrieme partie */
+    #sectQuatrieme {
+        margin-left: 110px;
+    }
+    #sectQuatrieme p {
+        width: 81%;
+        font-size: 14px;
+    }
+    /* Debut de la Cinquieme partie les images */
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        margin: 20px 110px;
+        margin-bottom: 250px;
+    }
+    /* Debut Du footer */
+    .Derniere {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        margin: 0px 140px;
+        width: 85%;
+    }
+    #blockInput {
+        margin-top: 15px;
+        margin-left: 135px;
+    }
+    #bordureFooter {
+        border: 1px solid #848c92;
+        margin-top: 20px;
+        width: 90%;
+    }
+    .newsDeux div {
+        margin-right: 0px;
+    }
+    #country {
+        border: none;
+        outline: none;
+        padding-right: 170px;
+        color: #fff;
+        background: #0a1121;
+    }
+    .newsMidlleDeux {
+        border: 1px solid #fff;
+        padding: 12px 10px;
+        width: 25%;
+        height: 20px;
+        background: #0a1121;
+        border-radius: 8px;
+        margin-top: 18px;
+        margin-left: 287px;
+    }
+    .newsQuatre div {
+        margin-right: 165px;
+        width: 120%;
+    }
+}
+
+
+/* Debut du responsive for Tablet */
+
+@media screen and (max-width: 768px) {
+    /* Debut de premiere partie la barre navigation  */
+    #headd {
+        display: none;
+    }
+    #barEnTete {
+        display: inline-block;
+        width: 98%;
+        border-bottom: 1px solid #b6bbbe;
+    }
+    #nave {
+        margin: 0px;
+        padding: 0px;
+    }
+    #nave {
+        display: flex;
+        width: 100%;
+        height: 40px;
+        justify-content: space-between;
+        padding: 10px 0px 5px 10px;
+    }
+    #nave a img {
+        margin-left: 5px;
+    }
+    #li_1 {
+        margin-right: 50px;
+    }
+    #li_2 {
+        margin-right: 25px;
+    }
+    /* Fin de premiere partie la barre navigation  */
+    /*  Debut de le deuxieme partie le logo */
+    #imageTri {
+        content: "";
+        display: block;
+        clear: both;
+        display: none;
+    }
+    #bordureLeft h3 {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+    #bordureLeft p {
+        font-size: 14px;
+        margin-top: -15px;
+    }
+    /*  Fin de le deuxieme partie le logo */
+    /* Debut de la troisieme partie les offres  */
+    #section_three,
+    #TroisiemeMidlle #input1,
+    #responDekstop,
+    #arriver,
+    #depart,
+    .friends,
+    #ref,
+    #ref2,
+    #search,
+    #LesImages,
+    .troisieme h4,
+    .troisieme ul,
+    #responDekstop,
+    #bordureCenter {
+        display: none;
+    }
+    #threeParts {
+        background: #f5f5f6;
+        height: 305px;
+        border-radius: 15px;
+        width: 96%;
+        margin-left: 10px;
+        margin-top: -50px;
+    }
+    #responsiveSearch {
+        display: inline-block;
+        border: 1px solid #d5d8d9;
+        width: 97%;
+        padding: 10px 15px 10px 10px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-left: 8px;
+        margin-top: 15px;
+        background-color: #fff;
+    }
+    /* #bordureInterieur:hover{
+        border: 1px dotted;
+    } */
+    #input2:focus {
+        outline: none;
+    }
+    #input2 {
+        border: none;
+        font-size: 15px;
+        width: 90%;
+        margin-left: 10px;
+    }
+    #mobile {
+        display: flex;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+    .friend {
+        border: none;
+        background: #fff;
+        margin-left: 15px;
+        border: 1px solid #d5d8d9;
+        padding: 0px 30px 0px 4px;
+        border-radius: 10px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .friend a {
+        text-decoration: #fff;
+        font-size: 11px;
+        color: #6c6a63;
+    }
+    #chambrePersonne {
+        margin-left: 35px;
+        font-weight: bold;
+        font-size: 11px;
+    }
+    #arrivee {
+        border: none;
+        background: #fff;
+        text-align: center;
+        font-size: 12px;
+        color: #6c6a63;
+        cursor: pointer;
+    }
+    #arrivee-avancer {
+        margin-left: 30px;
+        background: none;
+    }
+    #Depart {
+        border: none;
+        background-color: #fff;
+        font-size: 12px;
+        color: #6c6a63;
+        cursor: pointer;
+    }
+    #reff {
+        border: none;
+        border-right: 1px solid #d5d8d9;
+        width: 4%;
+        height: 25px;
+        background: none;
+        margin-left: 40px;
+        cursor: pointer;
+        background-color: #fff;
+    }
+    #mob {
+        border: 1px solid #d5d8d9;
+        padding: 4px 70px 4px 0px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: #fff;
+        width: 50%;
+    }
+    #rech {
+        margin-left: 8px;
+        margin-top: 22px;
+        display: inline-block;
+        border: 1px solid #d5d8d9;
+        width: 92%;
+        text-align: center;
+        padding: 10px 10px;
+        border-radius: 20px;
+        background: #007fad;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    #rech:hover {
+        background: #005f81;
+    }
+    .titre {
+        display: inline-block;
+        margin-left: 15px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    #lesImages {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: -8px;
+    }
+    #lesImages img {
+        margin-left: 20px;
+    }
+    #lesImages a {
+        text-decoration: none;
+        cursor: text;
+        color: #a4aaae;
+        font-size: 16px;
+        margin-left: 40px;
+    }
+    /* Fin de la troisieme partie les offres */
+    /* Debut de la quatrieme partie */
+    #sectQuatrieme {
+        margin-left: 18px;
+    }
+    #sectQuatrieme h3 {
+        font-size: 1.3rem;
+    }
+    #sectQuatrieme p {
+        display: none;
+    }
+    #sectQuatre {
+        margin-top: 100px;
+        box-sizing: border-box;
+    }
+    #sectQuatrieme img {
+        margin-top: -5px;
+    }
+    /* Debut de la quatrieme partie */
+    /* Debut de la Cinquieme partie les images */
+    .restriente {
+        display: none;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        margin: 20px 20px;
+        margin-bottom: 285px;
+    }
+    #CinqParts {
+        display: flex;
+    }
+    .cartre .imgDeux {
+        width: 110%;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    .informations h3 {
+        font-size: 17px;
+        width: 110%;
+    }
+    .cartre img {
+        border-radius: 10px;
+    }
+    .Annuler {
+        display: none;
+    }
+    /* Fin de la Cinquieme partie les images */
+    abc{
+        background-color: green;
+    }
+    /* Debut Du footer */
+    #bordureFooter,
+    #AllignerDesktop {
+        display: none;
+    }
+    footer {
+        background: #0a1121;
+        height: 910px;
+        box-sizing: border-box;
+    }
+    .Derniere {
+        display: inline-block;
+        flex-direction: none;
+        margin-left: 20px;
+        width: 50%;
+    }
+    .newsUne {
+        display: inline;
+        box-sizing: border-box;
+    }
+    .newsUneTexte {
+        width: 190%;
+        position: relative;
+        margin-bottom: 30px;
+        box-sizing: border-box;
+    }
+    #blockInput {
+        display: flex;
+        margin-left: -5px;
+        box-sizing: border-box;
+    }
+    #blockInput button {
+        margin-left: 5px;
+    }
+    #blockInput button:hover {
+        background: #0a1121;
+        border: none;
+    }
+    .newsUneInput {
+        border: none;
+        border: 1px solid #fff;
+        padding: 10px 145px 10px 8px;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+    #Alligner {
+        display: inline-block;
+        width: 170%;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .newsDeux {
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+    .newsMidlleDeux {
+        border: 1px solid #fff;
+        padding: 10px 10px;
+        width: 175%;
+        height: 20px;
+        background: #0a1121;
+        border-radius: 8px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    #country {
+        padding-right: 0px;
+        color: #fff;
+        background: #0a1121;
+        width: 94%;
+    }
+    .newsTrois {
+        display: flex;
+        margin-top: -20px;
+        cursor: pointer;
+    }
+    .newsQuatre {
+        display: inline-block;
+        margin-top: 40px;
+    }
+    .newsQuatre div {
+        margin-right: 0px;
+    }
+    #spaceQuatreTrois {
+        margin-left: 0px;
+    }
+    #elementLast {
+        width: 150%;
+    }
+    .spaceQuatreUne,
+    .spaceQuatreDeux,
+    #spaceQuatreTrois {
+        margin-bottom: 20px;
+        line-height: 1.5em;
+    }
+    #newsCinq {
+        margin-left: 150px;
+        margin-top: 10px;
+    }
+    #newsSix {
+        margin-left: 95px;
+    }
+    #newsSix p {
+        width: 180%;
+        font-size: 13px;
+        color: #8b939b;
+    }
+    .newsDeux div {
+        margin-right: 0px;
+    }
+    /* Fin Du footer */
+}
